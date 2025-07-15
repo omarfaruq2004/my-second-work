@@ -209,3 +209,50 @@ height: 52px;
 font-size: 24px;
 font-weight: 500;
 }
+
+/* FOOTER SECTION */
+
+.Contact-us-parent{
+   background-color: #FFF2F1; 
+   text-align: center;
+   padding: 35px 29px;
+   margin: 35px auto;
+   border-radius: 10px;
+}
+.Contact-inp-btn-parent{
+    display: flex;
+    justify-content: center;
+
+}
+.Contact-inp-btn-parent input{
+    border: none;
+    padding: 15px 152px;
+color: rgb(204, 204, 204);
+font-size: 24px;
+font-weight: 400;
+
+}
+.Contact-inp-btn-parent .panda-btn{
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.Contact-inp-btn-parent h2{
+    color: rgb(31, 31, 31);
+font-size: 30px;
+font-weight: 600;
+}
+.Contact-inp-btn-parent p{
+    color: rgb(112, 112, 112);
+font-size: 16px;
+font-weight: 700;
+}
+.button{
+    color: rgb(255, 255, 255);
+font-size: 24px;
+font-weight: 500;
+}
+.redius{
+        border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+}
