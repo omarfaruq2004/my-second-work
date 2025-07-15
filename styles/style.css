@@ -3,6 +3,7 @@
 *{
     box-sizing: border-box;
 }
+
 .poppins-normal {
   font-family: "Poppins", sans-serif;
   font-weight: 100;
@@ -136,4 +137,75 @@ background: linear-gradient(180.00deg, rgb(255, 88, 155) -0.006%,rgb(255, 19, 11
 }
 .card-3{
     background: linear-gradient(170.38deg, rgb(66, 137, 255) 15.416%,rgb(63, 7, 248) 74.29%);
+}
+
+
+/* SHOES CSS */
+
+.shoes-backpack-section-title-parent{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+.shoes-backpack-section-title-parent h2{
+    color: rgb(31, 31, 31);
+font-size: 36px;
+font-weight: 600;
+}
+.shoes-backpack-section-title-parent p{
+    color: rgb(255, 157, 0);
+font-size: 20px;
+font-weight: 500;
+}
+
+
+.total-shoes{
+    background: rgb(244, 244, 244);
+}
+
+.shoes-section{
+   margin: 65px auto;
+}
+
+.shoes-card-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+.shoes-card{
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    padding: 24px;
+}
+.shoes-card img{
+    width: 336px;
+    height: 202px;
+}
+
+.card-priec{
+    display: block;
+    font-weight: 600;
+    font-size: 22px;
+    margin-bottom: 12px;
+}
+.shoes-card .panda-btn{
+    background: black;
+}
+.shoes-card h2{
+    color: rgb(31, 31, 31);
+font-size: 24px;
+font-weight: 600;
+}
+.shoes-card p{
+    color: rgb(78, 78, 78);
+font-size: 16px;
+font-weight: 400;
+width: 307px;
+height: 52px;
+}
+.card-priec{
+    color: rgb(0, 0, 0);
+font-size: 24px;
+font-weight: 500;
 }
